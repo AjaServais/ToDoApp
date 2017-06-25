@@ -1,0 +1,121 @@
+.done {
+  text-decoration: line-through;
+  color:darkorange;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  border: 1px solid darkkhaki;
+  padding: 1%;
+  font-size: 1.3em;
+  position: relative;
+}
+
+.clear {
+  float: right;
+  background: transparent;
+  padding: 1%;
+}
+
+.clear, .options{
+  margin-top: 1%;
+}
+
+.options {
+  height: 40px;
+}
+
+.add, .options{
+  float: left;
+}
+
+.add {
+  width: 100px;
+  height: 28px;
+}
+
+.todoPage{
+  text-align: center;
+  margin-bottom: 1%;
+  background: rgba(203, 139, 21,0.5);
+  height: 100%;
+}
+
+body{
+  background: url('../public/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.todoHeader{
+  color: white;
+  font-family: "Abril Fatface", Times, serif;
+  font-size: 4.5em;
+  text-align: center;
+}
+
+.aboutHeader{
+  color: white;
+  font-family: "Abril Fatface", Times, serif;
+}
+
+.input-group, .newItemText, .add, .options, .clear, li, ul{
+  border-radius: 4px;
+}
+
+.well {
+  background-color: palegoldenrod;
+}
+
+.form-control, .newTextField, .input-group, .add, .options, .clear, li{
+  background-color: white;
+}
+
+.trash{
+  border-radius: 100%;
+  border: 1px solid transparent;
+  float: right; 
+}
+
+.trash:hover {
+  background-color: darkorange;
+  color: white;
+}
+
+.fa-trash{
+transition: all .2 ease-in-out;
+}
+
+.fa-trash:hover{
+  transform: scale(1.8);
+}
+
+ .counter   {
+   font-size: 1.5em;
+ } 
+
+.link {
+  float: left;
+}
+
+.btn-group {
+  opacity: 0.8;  
+  border-radius: 24px;
+  padding-right: 90%;
+  color: white;
+  display: inline;
+}
+
+.aboutHeader, .things, .counter > span {
+  color: goldenrod;
+}
+
+.things{
+  font-family: "Abril Fatface", Times, serif;
+}
+
+.counter{
+  font-style: italic;
+}
